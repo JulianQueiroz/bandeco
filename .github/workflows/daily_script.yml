@@ -2,7 +2,8 @@ name: Executar Script Diário
 
 on:
   schedule:
-    - cron: '57 18 * * *' 
+    - cron: '09 19 * * *' 
+  workflow_dispatch:
 
 jobs:
   run-script:
