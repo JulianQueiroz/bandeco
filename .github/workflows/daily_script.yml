@@ -21,7 +21,9 @@ jobs:
     - name: Instalar Dependências
       run: |
         python -m pip install --upgrade pip
-        if [ -f requirements.txt ]; then pip3 install -r requirements.txt; fi
+        pip freeze > requirements.txt
+        pip install -r requirements.txt 
+
     - name: Executar o Script
       run: |
         python views.py 
