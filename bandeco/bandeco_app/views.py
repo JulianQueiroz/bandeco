@@ -84,3 +84,4 @@ async def enviar_cardapio():
     else:
         print(f'Erro ao acessar a página: {response.status_code}')
 
+asyncio.run(enviar_cardapio())
