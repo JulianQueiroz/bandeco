@@ -84,11 +84,3 @@ async def enviar_cardapio():
     else:
         print(f'Erro ao acessar a página: {response.status_code}')
 
-def job():
-    asyncio.run(enviar_cardapio())
-
-schedule.every().day.at("14:00").do(job)
-
-while True:
-    schedule.run_pending()
-    time.sleep(60) 
