@@ -8,7 +8,7 @@ import schedule
 import time
 
 TOKEN = '6774243823:AAEze-l5MMGYUsVHLy9QGnKYzub5rt78rh8' 
-GROUP_ID = '-4503429022'  
+GROUP_ID = '-1002231687187'  
 
 bot = Bot(token=TOKEN)
 
