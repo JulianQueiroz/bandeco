@@ -7,7 +7,7 @@ import asyncio
 import schedule
 import time
 
-TOKEN = '6774243823:AAHKjbfWiothfs-beKGDvrhtWNlOvHlrhag' 
+TOKEN = '6774243823:AAEze-l5MMGYUsVHLy9QGnKYzub5rt78rh8' 
 GROUP_ID = '-4503429022'  
 
 bot = Bot(token=TOKEN)
