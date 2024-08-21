@@ -26,4 +26,4 @@ jobs:
 
     - name: Executar o Script
       run: |
-        python views.py 
+        python bandeco/bandeco_app/views.py
