@@ -33,8 +33,8 @@ def escape_markdown_v2(text):
 
 async def enviar_cardapio():
     urls = [
-        ('https://docs.google.com/spreadsheets/d/1YvCqBrNw5l4EFNplmpRBFrFJpjl4EALlVNDk3pwp_dQ/pubhtml',"Fundão"),
-        ('https://docs.google.com/spreadsheets/d/1gymUpZ2m-AbDgH7Ee7uftbqWmKBVYxoToj28E8c-Dzc/pubhtml',"PV/IFCS")
+        ('https://docs.google.com/spreadsheets/d/1gymUpZ2m-AbDgH7Ee7uftbqWmKBVYxoToj28E8c-Dzc/pubhtml',"PV/IFCS"),
+        ('https://docs.google.com/spreadsheets/d/1YvCqBrNw5l4EFNplmpRBFrFJpjl4EALlVNDk3pwp_dQ/pubhtml',"Fundão")
         ]
     for url, local in urls:
         response = requests.get(url)
