@@ -83,8 +83,8 @@ async def enviar_cardapio():
             cardapio_do_dia = refeições_por_dia.get(dia_da_semana, [])
             almoco = cardapio_do_dia[0:7]
             janta = cardapio_do_dia[8:-1]
-            mensagem_almoco =  '\n'.join(almoco) + f'\n\n\n📍 *{local}* \n'
-            mensagem_janta =  '\n'.join(janta) + f'\n\n\n📍 *{local}* \n'
+            mensagem_almoco =  '\n'.join(almoco) + f'\n\n\n📍 - *{local}* \n'
+            mensagem_janta =  '\n'.join(janta) + f'\n\n\n📍 - *{local}* \n'
             print(mensagem_almoco)
             print(mensagem_janta)
             try:
